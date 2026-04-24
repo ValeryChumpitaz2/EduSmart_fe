@@ -1,0 +1,41 @@
+.hero {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+  padding: 80px 20px;
+}
+
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+
+.hero-text {
+  max-width: 500px;
+}
+
+
+.hero-text h1 {
+  color: white;
+}
+
+
+.hero-text p {
+  color: #e0e7ff;
+  margin-bottom: 20px;
+}
+
+
+.hero-image img {
+  width: 350px;
+  max-width: 100%;
+}
+
+
+
+
