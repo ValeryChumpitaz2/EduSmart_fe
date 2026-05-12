@@ -7,21 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './contact.component.css'
 })
 export class ContactComponent {
- nombre: string = '';
- email: string = '';
- mensaje: string = '';
+  enviar(formulario: any) {
+    console.log(formulario.value);
+  }
 
-
- enviar() {
-  console.log('Nombre:', this.nombre);
-  console.log('Email:', this.email);
-  console.log('Mensaje:', this.mensaje);
-
-  alert('Mensaje enviado correctamente');
-
-  //Limpiar el formulario
-  this.nombre = '';
-  this.email = '';
-  this.mensaje = '';
- }
 }
